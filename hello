@@ -1,0 +1,104 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOTzG73sHEad916tJTUqtFA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ke-stack/Hello-World/blob/main/hello\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Mk47Smcbjxxd",
+        "outputId": "a1dae338-0518-466c-b965-fc4543601d83"
+      },
+      "source": [
+        "a = int(input(\"Input no: \"))\n",
+        "b = int(input(\"input no: \"))\n",
+        "div = a/b \n",
+        "print(\"div= \", div)\n",
+        "\n",
+        "if div >= 5:\n",
+        "    print(\"Huge no.\")\n",
+        "else:\n",
+        "    print(\"small no.\")\n",
+        "    "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Input no: 12\n",
+            "input no: 2\n",
+            "div=  6.0\n",
+            "Huge no.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0TcFuybMkAXJ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "28a3d503-14d0-4fc4-9967-5cb11669e2bc"
+      },
+      "source": [
+        "import math\n",
+        "print('hello world')\n",
+        "z= math.sqrt(4)\n",
+        "w=round(math.sqrt(51))\n",
+        "z*w + 20.2\n",
+        "type(z)"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 13
+        }
+      ]
+    }
+  ]
+}
